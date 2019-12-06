@@ -6,6 +6,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+.column img {
+
+	margin-bottom: -7px;
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2435,11 +2442,11 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			
 		}
 
 		ul.alt {
@@ -2827,7 +2834,7 @@ input, select, textarea {
 		}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
-				margin-top: 0;
+				
 			}
 
 			.features li > :last-child {
@@ -3338,7 +3345,17 @@ input, select, textarea {
 		}
 
 /* Main */
+    
+    .features li{
 
+
+    	width: 40%;
+    }
+
+    .renard {
+
+    	width: 90%;
+    }
 
     .nana {
 
@@ -3735,7 +3752,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 0em 5em 3em 5em ;
+			padding: 3em 5em 3em 5em ;
 			border-top: solid 1px #dddddd;
 		}
 
